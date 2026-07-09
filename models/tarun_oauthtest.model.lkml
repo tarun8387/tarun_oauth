@@ -4,6 +4,7 @@ connection: "bigquery_test"
 include: "/views/**/*.view.lkml"
 #include: "//test_git/views/*.view.lkml"
 include: "//tarun_test/views/*.view.lkml"
+include: "/+covid19_open_data.view.lkml"
 
 datagroup: tarun_oauthtest_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
